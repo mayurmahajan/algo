@@ -1,3 +1,14 @@
+
+/**
+ * 108. Convert Sorted Array to Binary Search Tree
+ * problem : Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
+ * link : https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+ * tag : easy array bst tree recursion
+ * pattern : recursion
+ * 
+ * @author mayurm
+ */
+
 class ConvertSortedArraytoBinarySearchTree {
 
     public static class TreeNode {
@@ -31,7 +42,7 @@ class ConvertSortedArraytoBinarySearchTree {
     public static void main(String[] args){
         int[] nums = new int[] {1};
         TreeNode node = new ConvertSortedArraytoBinarySearchTree().sortedArrayToBST(nums);
-        System.out.println(node.val == 1);        
+        assert node.val == 1;        
     }
 
 }

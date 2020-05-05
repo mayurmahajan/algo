@@ -44,5 +44,4 @@ class ConvertSortedArraytoBinarySearchTree {
         TreeNode node = new ConvertSortedArraytoBinarySearchTree().sortedArrayToBST(nums);
         assert node.val == 1;        
     }
-
 }
